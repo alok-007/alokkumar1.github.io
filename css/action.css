@@ -74,5 +74,11 @@ margin-left: 60px;
     margin-top: 80px
 }
 #nav{
-    background-color: #606361;
+    background-color:black;
+}
+.navbar-toggler{
+   border: 2px solid white
+}
+.navbar-toggler-icon{
+    border: 5px solid white
 }
