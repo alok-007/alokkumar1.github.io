@@ -1,0 +1,278 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index:1;
+   background: rgba(0,0,0,0.5)
+   
+}
+.list{
+    border-left: 10px solid white;
+    
+}
+   
+    
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+    height: 90px;
+    text-align: center
+}
+
+li {
+  float: left;
+    margin-top: 20px;
+   
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.menu{
+   background: url(https://www.larutadelsorigens.cat/filelook/full/12/128337/gaming-wallpaper-1366x768.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+   width: 100%;
+    height:750px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.menu1{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    
+}
+.menu2{
+    position: absolute;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    text-align: center;
+    top:40%;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.menu2 img{
+    height: 270px
+}
+#crysto{
+    margin-top: 40px;
+    font-size: 50px;
+    f
+}
+section {
+    background: black;
+    overflow:hidden;
+
+}
+
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#home-heading h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block
+}
+
+#home-heading h1 span {
+    color: yellow;
+    font-weight: 500;
+}
+
+#home-text p {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 8px 0 20px 0;
+}
+
+.btn-general {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 12px 40px 12px 40px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-home {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+    background-color: yellow;
+    color: black;
+    border: 1px solid yellow;
+
+}
+
+#arrow-down {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: white;
+    font-size: 40px;
+    height: 32px;
+    width: 32px;
+    margin-left: -16px;
+    z-index: 1;
+}
+
+#arrow-down:hover,
+#arrow-down:focus {
+    color: yellow;
+}
+
+#choose {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-warnin {
+    background: none;
+}
+
+.top {
+    margin-top: 70px;
+
+}
+
+.top img:hover {
+    height: 40px;
+    width: 40px;
+
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.top img {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.images {
+    margin-top: 40px;
+}
+
+.col-md-3 {
+    padding: 20px;
+}
+
+.images img {
+    height: 270px;
+    width: 200px;
+    border: 3px solid white;
+}
+
+.portfolio-item:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+
+}
+
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+
+}
+
+
+.portfolio-item-details {
+    margin-top: 100px;
+    margin-right: 40px;
+
+}
+
+.text-center {
+    color: white;
+    font-size: 20px;
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+    
+}
+
+#upcoming {
+    background: #292828;
+}
+
+h2 {
+    margin-left: 30px
+}
+
+.btn-primary {
+    margin-top: 35px
+}
+
+.footer {
+    text-align: center;
+  background: black;
+    padding: 20px
+}
+
+.btn-back-to-top{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   
+}
+.white-nav-top{
+    background: #fff;
+    box-shadow: 0 8px 6px -9px #999
+}

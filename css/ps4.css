@@ -1,0 +1,112 @@
+
+
+
+.text-center{
+    color: black;
+    margin-top:10px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .d-block{
+        height: 200px;
+        width: 300px;
+    }
+  
+}
+.cover{
+    margin-top: 10px;
+    
+}
+#ps4{
+    background: url('http://hdqwalls.com/wallpapers/spiderman-ps4-artwork-4k-2018-qc.jpg') fixed center;
+    background-size:cover;
+  height: 300px;
+    margin-top: 15px;
+}
+.details{
+    color: white;
+}
+.card{
+    border: none;
+}
+.nav-link{
+    background-color:#303338;
+    border: 5px solid white;
+    color: white;
+    margin-left: 5px;
+   
+}
+.nav-link:hover{
+      border: 5px solid white;
+}
+.img-fluid{
+    padding: 10px;
+    text-align: center;
+    
+}
+#background{
+    background-color: #e1e3e1;
+    margin-top: 30px;
+}
+.read{
+    margin-top: 70px;
+    
+}
+.description{
+    margin-top: 30px;
+}
+h6{
+    margin-top: 30px;
+}
+h1{
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+.footer1 {
+    text-align: center;
+  background: black;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+    
+}
+.img-fluid{
+   
+    -webkit-transition: -webkit-transform 0.5s;
+   
+    transition: -webkit-transform 0.5s;
+   
+    transition: transform 0.5s;
+   
+    transition: transform 0.5s, -webkit-transform 0.5s;
+}
+.img-fluid:hover{
+    
+ overflow: hidden;
+    
+   -webkit-transform: scale(1.1);
+  
+   transform: scale(1.1);
+   
+}
+.box .img-box{
+    position: relative;
+}
+.box .img-box img{
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+}
+.box .img-box img:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+.tab-content{
+    margin-top: 10px;
+}
+.nav-item a{
+    background: none;
+    border: 5px solid black;
+}

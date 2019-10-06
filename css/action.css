@@ -1,0 +1,78 @@
+body{
+    background: black;
+}
+.lead{
+    text-align: left;
+}
+hr{
+    background: gray;
+    height: 1px;
+}
+.pc{
+    text-align: center;
+}
+.btn{
+    background:#4dff4d;
+    color: black;
+}
+#head{
+    color: white;
+}
+#buy{
+    color: white;
+    
+}
+.btn1{
+     margin-left: 230px;
+    background: greenyellow;
+}
+.bg{
+    background: #535557;
+}
+p{
+    color:white;
+}
+.pc-overlay-details{
+    color: white;
+    font-size: 20px;
+}
+.pc-overlay-item:hover .pc-overlay-details{
+    opacity: 1;
+}
+.pc-overlay-details{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+label{
+margin-left: 60px;
+    margin-top: 60px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+.row{
+    border-bottom: 1px solid white;
+    border-radius: 20px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    height: 200px;
+    margin-top: 80px
+}
+#nav{
+    background-color: #606361;
+}
